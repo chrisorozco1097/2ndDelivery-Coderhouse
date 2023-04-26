@@ -98,6 +98,20 @@ body {
   width: max-content;
 }
 
+.profile-pic {
+  width: 30vw;
+}
+
+.card {
+  z-index: -1;
+  align-items: center;
+  padding: 20px;
+}
+
+.leave-message {
+  margin-top: 20px;
+}
+
 .sidebar {
   scale: 0;
   position: fixed;
@@ -109,6 +123,7 @@ body {
   height: 100vh;
   -webkit-transition: .25s 0s ease-in-out;
   transition: .25s 0s ease-in-out;
+  z-index: 4;
 }
 .hamb-menu:has(input:checked) + .sidebar{
   scale: 1;
