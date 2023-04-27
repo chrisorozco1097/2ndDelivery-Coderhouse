@@ -123,7 +123,6 @@ body {
   height: 100vh;
   -webkit-transition: .25s 0s ease-in-out;
   transition: .25s 0s ease-in-out;
-  z-index: 4;
 }
 .hamb-menu:has(input:checked) + .sidebar{
   scale: 1;
@@ -149,7 +148,20 @@ body {
   bottom: 0px;
   width: 100vw;
 }
+.socials {
+  margin: 10px 10vw;
+}
+.link a {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(47, 43, 43);
+}
 
+.inst {
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
 .schools h1, .schools p {
   font-size: 40px;
   color: black;
