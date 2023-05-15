@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=BenchNine:wght@300&family=Fira+Sans:wght@100;200;300;400&display=swap');
+
+h1 {
+    font-family: $font-main;
+    font-size: 35px;
+    color: $strong-color;
+    text-decoration: none;
+  }
+  
+h2 {
+    font-family: $font-main;
+    font-size: 30px;
+    color: $light-color;
+    text-decoration: none;
+  }
+
+li a, .filters-btn, .views-btn { 
+    font-family: $font-main;
+    font-size: 25px;
+    color: $strong-color;
+    text-decoration: none;
+  }
+
+li a, .filters-btn, .views-btn { 
+    font-family: $font-main;
+    font-size: 25px;
+    color: $strong-color;
+    text-decoration: none;
+  }
+  
+p {
+    font-family: $font-secondary;
+    font-size: 31px;
+    color: $strong-color;
+    text-decoration: none;
+  }
