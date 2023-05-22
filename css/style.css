@@ -101,8 +101,8 @@ header .hamb-menu:has(input:checked) + .sidebar {
   scale: 1;
   -webkit-transition: 0.25s 0s ease-in-out;
   transition: 0.25s 0s ease-in-out;
-  box-shadow: 0 0 0 100vw grey, 0 0 0 100vh grey;
-  background-color: grey;
+  box-shadow: 0 0 0 100vw lightgrey, 0 0 0 100vh lightgrey;
+  background-color: lightgrey;
 }
 header .sidebar {
   scale: 0;
@@ -130,6 +130,11 @@ main .main-start .card {
   align-items: center;
   padding: 20px;
 }
+@media screen and (max-width: 720px) {
+  main .main-start .card .card-text {
+    font-size: 25px;
+  }
+}
 main .main-start .card .profile-pic {
   width: 30vw;
 }
@@ -148,7 +153,7 @@ main .main-start .form-contact .focus-ring {
 main .main-start .gallery {
   display: grid;
   justify-content: center;
-  margin: 20px;
+  margin: 3vh 10vw;
   grid-template-rows: repeat(4, 20vw);
   grid-template-columns: repeat(4, 20vw);
   gap: 5px;
@@ -218,8 +223,16 @@ main .main-start .projects {
   padding: 2vh 5vw;
   width: 100vw;
 }
+@media screen and (max-width: 720px) {
+  main .main-start .projects {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 main .main-start .projects .date-time-small p {
   font-size: 20px;
+  margin-right: 3vw;
 }
 main .main-start .projects .description p {
   gap: 0;
@@ -229,6 +242,21 @@ main .main-start .projects .description p .bold-p {
   font-family: "BenchNine", sans-serif;
   font-size: 27px;
   color: black;
+}
+main .main-start .institution-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+  text-align: center;
+  padding: 2vh 5vw;
+  width: 100vw;
+}
+main .main-start .contact-text {
+  text-align: center;
+  margin: 0px 3vw;
 }
 
 footer .foot-text {
