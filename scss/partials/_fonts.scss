@@ -14,18 +14,20 @@ h2 {
     text-decoration: none;
   }
 
-li a, .filters-btn, .views-btn { 
+li a { 
     font-family: $font-main;
-    font-size: 25px;
+    font-size: 35px;
     color: $strong-color;
     text-decoration: none;
+    text-align: center;
   }
 
-li a, .filters-btn, .views-btn { 
+.filters-btn, .views-btn { 
     font-family: $font-main;
     font-size: 25px;
     color: $strong-color;
     text-decoration: none;
+    text-align: center;
   }
   
 p {
